@@ -1,14 +1,14 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import mock1 from "../img/mock1.JPG"
+import mock2 from "../img/mock2.JPG"
+import mock3 from "../img/mock3.JPG"
+import mock4 from "../img/mock4.JPG"
+import mock5 from "../img/mock5.JPG"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(#425949,#028A96,#FFFFFF)", "rgb(30,182,196)"];
+export let colors = [ "rgb(40, 175, 91)", "rgb(80, 123, 211)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -68,7 +68,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Olá!\n Meu nome é [seu nome] e sou fisioterapeuta. \nTrabalho com terapia manual, pilates e osteopatia há mais de 10 anos. Sou apaixonado por ajudar as pessoas a melhorar a sua saúde e bem-estar. Acredito que todos merecem ter acesso a cuidados de saúde de qualidade, por isso ofereço meus serviços a preços acessíveis. Se você está procurando ajuda para melhorar a sua saúde, entre em contato comigo hoje mesmo. Eu ficarei feliz em ajudá-lo a alcançar seus objetivos.!",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],

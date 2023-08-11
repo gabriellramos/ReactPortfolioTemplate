@@ -44,10 +44,10 @@ export default function BaseLayout() {
                </Routes>
             </Grid>
             <Grid item>
+            
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <img src={logo} height="150px"/>
-
+                  <img src={logo} height="150em" max-height="150em"/>
                   <p>&copy; 2023</p>
                </Box>
             </Grid>
