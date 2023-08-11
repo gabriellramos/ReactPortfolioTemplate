@@ -16,9 +16,13 @@ const links = [
         to: '/about',
         active: 'about'
     },
-    
     {
-        name: 'Portfolio',
+        name: 'main',
+        to: '/',
+        active: 'main'
+    },
+    {
+        name: 'Atuação',
         to: '/portfolio',
         active: 'portfolio'
     }

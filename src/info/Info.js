@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(208,232,139)", "rgb(91,251,239)"];
+export let colors = ["rgb(#425949,#028A96,#FFFFFF)", "rgb(30,182,196)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -50,29 +50,19 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://instagram.com/larissaramos.fisio",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
+            link: "https://api.whatsapp.com/send?phone=5548991033490",
+            icon: "fa fa-whatsapp",
+            label: 'whatsapp'
         },
         {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
+            link: "https://goo.gl/maps/yhczqQtUp9RC92B39",
+            icon: "fa fa-map",
+            label: 'maps-location'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.

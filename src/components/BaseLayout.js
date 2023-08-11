@@ -3,9 +3,11 @@ import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
+import logo from '../img/logo.png'
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -44,7 +46,8 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>template created with &hearts; by <a href={'https://paytonpierce.dev'}>Payton Pierce</a></p>
+                  <img src={logo} height="150px"/>
+
                   <p>&copy; 2023</p>
                </Box>
             </Grid>
