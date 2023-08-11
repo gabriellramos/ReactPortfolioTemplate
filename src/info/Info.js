@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(208,232,139)", "rgb(91,251,239)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -23,29 +23,29 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Larissa",
+    lastName: "Ramos",
+    initials: "Fisio", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Fisioterapeuta",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🏩',
+            text: 'Fisioterapia de Resultados'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+            emoji: '💆‍♀️',
+            text: 'Terapia Manual'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: "🧎",
+            text: "Pilates"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "larykramos@gmail.com"
         }
     ],
     socials: [
